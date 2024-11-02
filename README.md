@@ -1,3 +1,4 @@
 # travel-app-flet
 flet mobile application
-![Screenshot 2024-10-02 211738](https://github.com/user-attachments/assets/7e69b258-7da8-4ce8-b4ff-c78f40d2f76b)
+
+![Screenshot 2024-11-02 133941](https://github.com/user-attachments/assets/afc44508-dd42-4a65-828b-1a98aa4fa180)
