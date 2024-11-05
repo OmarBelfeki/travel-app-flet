@@ -111,7 +111,7 @@ class Place(ft.Container):
             e.control.content.name = ft.icons.FAVORITE
             e.page.snack_bar = ft.SnackBar(ft.Text("Add to Favorite"))
             e.page.snack_bar.open = True
-            e.page.session.set(f"fav_{"".join(self.name_place)}", {
+            e.page.session.set(f"fav_{''.join(self.name_place)}", {
                 "name": self.name_place[0],
                 "place": self.place,
                 "loc": self.loc_place,
