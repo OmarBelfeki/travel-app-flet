@@ -126,7 +126,7 @@ class Place(ft.Container):
             e.control.content.name = ft.icons.FAVORITE_OUTLINE
             e.page.snack_bar = ft.SnackBar(ft.Text("Delete from Favorite"))
             e.page.snack_bar.open = True
-            e.page.session.remove(f"fav_{"".join(self.name_place)}")
+            e.page.session.remove(f"fav_{''.join(self.name_place)}")
             e.page.session.remove("place")
         e.page.update()
 
